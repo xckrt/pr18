@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">pr18</string>
+    <string name="logvvod">Введите логин</string>
+    <string name="passvvod">Введите пароль</string>
+    <string name="save">Сохранить</string>
+    <string name="upload">Загрузить</string>
+    <string name="loaddata">Загрузка данных</string>
+    <string name="realloaddata">Вы действительно хотите загрузить данные?</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="vvodvalue">Введите валюту</string>
+    <string name="vvodsum">Введите сумму</string>
+    <string name="loadsaved">Просмотреть сохраненное</string>
+    <string name="dataload">Данные загружены</string>
+    <string name="vvoduser">Введите имя пользователя</string>
+    <string name="vvodpass">Введите пароль</string>
+    <string name="enter">Войти</string>
+    <string name="vxod">Вход</string>
+</resources>

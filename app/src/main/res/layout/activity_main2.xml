@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bckgr"
+    android:padding="16dp">
+
+    <EditText
+        android:layout_marginTop="50sp"
+        android:id="@+id/etCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vvodvalue"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"/>
+
+    <EditText
+        android:layout_marginTop="20sp"
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:hint="@string/vvodsum"
+        android:backgroundTint="@color/white"/>
+
+    <Button
+        android:layout_marginTop="350sp"
+        android:id="@+id/btnSave"
+        android:background="@drawable/button"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnView"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:layout_height="wrap_content"
+        android:text="@string/loadsaved" />
+</LinearLayout>
